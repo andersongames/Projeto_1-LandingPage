@@ -1,2 +1,6 @@
-# Projeto_1-LandingPage
- Projeto 1 do Curso DankiCode
+# Projeto 1 - Landing page
+
+**Projeto 1 do curso Curso Webmaster Front-End Completo da DankiCode**
+
+Demonstração do resultado final:
+
