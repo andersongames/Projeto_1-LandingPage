@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
 html, body{
@@ -36,8 +37,63 @@ margin: 0 auto;
 }
 
 .form{
+    padding: 10px;
     width: 400px;
-    height: 100%;
+    height: calc(100% + 30px);
     float: right;
+    position: relative;
+    top: -15px;
+    border: 8px solid #ccc;
     background-color: white;
+}
+
+.form h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+
+}
+
+.form p{
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    border-bottom: 5px solidd #4A5097;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    background-color: #363A6D;
+}
+
+.form input[type=submit]:hover{
+    background-color: #323665;
 }
