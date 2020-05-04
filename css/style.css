@@ -43,8 +43,11 @@ margin: 0 auto;
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
     background-color: white;
+    background-clip: padding-box;
 }
 
 .form h2{
@@ -114,4 +117,21 @@ margin: 0 auto;
 .container-list ul li{
     margin-top: 18px;
     color: white;
+}
+
+.container-sec2{
+    padding: 70px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-sec2 h2{
+    font-weight: normal;
+}
+
+.container-sec2 p{
+    width: 698px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
 }
