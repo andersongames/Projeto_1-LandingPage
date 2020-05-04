@@ -9,6 +9,10 @@ html, body{
     height: 100%;;
 }
 
+.clear{
+    clear: both;
+}
+
 .center{
 width: 1200px;
 margin: 0 auto;
@@ -181,4 +185,16 @@ padding: 0 2%;
 
 .container-single img{
     width: 70px;
+}
+
+.footer{
+    /*clear: both;*/
+    padding: 20px 0;
+    border-top: 2px solid #888888;
+    text-align: center;
+    color: #888;
+}
+
+.footer p{
+    margin-top: 8px;
 }
